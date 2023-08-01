@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 900px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 20px rgb(0,0,0,.5);
+    overflow: hidden;
+}
+.translater_property{
+    border: 1px solid rgb(171, 158, 158);
+}
+.translater_property .nuv_item{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom:1px solid rgb(171, 158, 158);
+    padding: 0 20px;
+} 
+.translater_property .nuv_item li select{
+    outline: none;
+    border-style: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #606060;
+}
+.bx-transfer .transfer-alt {
+    font-size: 22px;
+    color: #606060;
+    cursor: pointer;
+
+}
+.write-box{
+    display: flex;
+}
+.property-from, .property-trans{
+    width: 100%;
+    
+}
+.write-box textarea{
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #606060;
+    position: relative;
+
+}
+.write-box textarea:nth-child(1){
+    border-right: 1px solid #606060;
+}
+.write-box .icons {
+    /* position: absolute; */
+    /* right: 0;
+    bottom: 0; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+
+
+  
+   
+
+}
+.icons .bx{
+    width: 35px;
+    height: 35px;
+    background: #ddd;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 50%;
+    transition: all ease-out 0.3s;
+
+
+}
+.icons .bx:hover{
+    background-color: #606060;
+    color: wheat;
+
+}
+.code-length{
+    font-size: 18px;
+    color: #606060;
+    
+}
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="translater_property">
+        <ul class="nuv_item">
+          <li>
+            <select></select>
+          </li>
+          <li class="bx bx-transfer">
+            <box-icon class="transfer-alt" name="transfer-alt"></box-icon>
+          </li>
+          <li>
+            <select></select>
+          </li>
+        </ul>
+        <div class="write-box">
+          <div class="property-from">
+            <textarea
+              maxlength="5000"
+              class="fromText"
+              placeholder="Write Down"
+            ></textarea>
+            <div class="icons">
+              <span class="bx bx-volume-full from"
+                ><box-icon name="volume-full"></box-icon
+              ></span>
+              <div class="code-length">0/5,000</div>
+            </div>
+          </div>
+          <div class="property-trans">
+            <textarea class="toTranslate" disabled></textarea>
+            <div class="icons">
+              <span class="bx bx-volume-full to"
+                ><box-icon name="volume-full"></box-icon
+              ></span>
+              <span class="bx bx-copy"><box-icon name="copy"></box-icon></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="language.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
